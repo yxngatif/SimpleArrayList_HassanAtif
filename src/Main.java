@@ -8,10 +8,10 @@ public class Main {
         System.out.println(list.debugView());
 
         // TODO: After implementing add, uncomment these lines:
-        // list.add("A");
-        // list.add("B");
-        // list.add("C");
-        // System.out.println(System.lineSeparator() + "After adding A, B, and C:");
-        // System.out.println(list.debugView());
+        list.add("A");
+        list.add("B");
+        list.add("C");
+        System.out.println(System.lineSeparator() + "After adding A, B, and C:");
+        System.out.println(list.debugView());
     }
 }
